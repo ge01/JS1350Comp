@@ -23,3 +23,14 @@ function ternaryFunction() {
   voteable = (age < 18) ? "Too young" : "Old enough";
   document.getElementById("ternary").innerHTML = voteable + " to vote.";
 }
+
+function ageFunction() {
+  var age, voteable;
+  age = Number(document.getElementById("age1").value);
+  if (isNaN(age)) {
+      voteable = "Error in input";
+  } else {
+      voteable = (age < 18) ? "Too young" : "Old enough";
+  }
+  document.getElementById("ternary1").innerHTML = voteable;
+}
