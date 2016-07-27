@@ -34,3 +34,10 @@ function ageFunction() {
   }
   document.getElementById("ternary1").innerHTML = voteable;
 }
+
+/****************************************************
+*             JavaScript Bitwise Operators          *
+****************************************************/
+function bitFunction() {
+  document.getElementById("bit").innerHTML = 5 & 1;
+}
